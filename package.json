@@ -4,8 +4,7 @@
   "description": "Tour App",
   "main": "app.js",
   "scripts": {
-    "start": "node server/server.js",
-    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha --timeout 3000 server/**/*.test.js",
+    "start": "node server/app.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
   "engines": {
