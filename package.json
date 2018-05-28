@@ -4,7 +4,7 @@
   "description": "Tour App",
   "main": "app.js",
   "scripts": {
-    "start": "node server/app.js",
+    "start": "node server/app.js"
   },
   "engines": {
     "node": "8.9.3"
