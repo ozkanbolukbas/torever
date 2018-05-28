@@ -4,7 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const {ObjectID} = require('mongodb');
 const mongoose2 = require('mongoose');
-var{mongoose} =require('./db/mongoose');
 var{User} = require('./models/user');
 var{authenticate} = require('./middleware/authenticate');
 
